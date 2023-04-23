@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(1, "C:/ProgramData/anaconda3/envs/MachineLearning/Lib/site-packages")
 import streamlit as st
 from streamlit_option_menu import option_menu
 from PIL import Image
@@ -7,6 +9,7 @@ from PIL import Image
 
 image_directory = "D:\disease_prediction\local_hospital.png"
 image = Image.open(image_directory)
+
 
 
 
