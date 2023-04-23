@@ -1,6 +1,6 @@
-import sys
-sys.path.insert(1, "C:/ProgramData/anaconda3/envs/MachineLearning/Lib/site-packages")
 import streamlit as st
+import sys
+sys.path.insert(1, "C:/ProgramData/anaconda3/envs/MachineLearning/Lib/site-packages/streamlit_option_menu")
 from streamlit_option_menu import option_menu
 from PIL import Image
 from code.DiseaseModel import DiseaseModel
@@ -10,7 +10,8 @@ from PIL import Image
 image_directory = "D:\disease_prediction\local_hospital.png"
 image = Image.open(image_directory)
 
-
+# C:\ProgramData\anaconda3\envs\MachineLearning\Lib\site-packages\streamlit_option_menu
+# C:/ProgramData/anaconda3/envs/MachineLearning/Lib/site-packages
 
 
 st.set_page_config(page_title='E Health Care', page_icon = image, layout = 'wide', initial_sidebar_state = 'auto')
