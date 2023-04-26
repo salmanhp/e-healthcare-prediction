@@ -7,7 +7,7 @@ from code.DiseaseModel import DiseaseModel
 from code.helper import prepare_symptoms_array
 from PIL import Image
 
-image_directory = "D:\disease_prediction\local_hospital.png"
+image_directory = "D:/disease_prediction/local_hospital.png"
 image = Image.open(image_directory)
 
 # C:\ProgramData\anaconda3\envs\MachineLearning\Lib\site-packages\streamlit_option_menu
