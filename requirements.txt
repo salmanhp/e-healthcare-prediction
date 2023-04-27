@@ -4,5 +4,5 @@ streamlit_option_menu
 pandas
 xgboost
 numpy
-sklearn
+scikit-learn
 joblib
