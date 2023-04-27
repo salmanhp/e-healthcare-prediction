@@ -7,14 +7,14 @@ from code.DiseaseModel import DiseaseModel
 from code.helper import prepare_symptoms_array
 
 
-image_directory = "D:/disease_prediction/local_hospital.png"
-image = Image.open(image_directory)
+# image_directory = "D:/disease_prediction/local_hospital.png"
+# image = Image.open(image_directory)
 
 # C:\ProgramData\anaconda3\envs\MachineLearning\Lib\site-packages\streamlit_option_menu
 # C:/ProgramData/anaconda3/envs/MachineLearning/Lib/site-packages
 
 
-st.set_page_config(page_title='E Health Care', page_icon = image, layout = 'wide', initial_sidebar_state = 'auto')
+# st.set_page_config(page_title='E Health Care', page_icon = image, layout = 'wide', initial_sidebar_state = 'auto')
 # favicon being an object of the same kind as the one you should provide st.image() with (ie. a PIL array for example) or a string (url or local file path)
 
 
