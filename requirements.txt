@@ -6,4 +6,3 @@ xgboost
 numpy
 sklearn
 joblib
-gzip
