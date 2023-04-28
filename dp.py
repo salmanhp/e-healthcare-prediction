@@ -1,20 +1,25 @@
 import streamlit as st
 # import sys
+# import os
 # sys.path.insert(1, "C:/ProgramData/anaconda3/envs/MachineLearning/Lib/site-packages/streamlit_option_menu")
 from streamlit_option_menu import option_menu
 from PIL import Image
 from code.DiseaseModel import DiseaseModel
 from code.helper import prepare_symptoms_array
 
+# path = os.pa/th.dirname(__file__)
+# print(path)
+# image_directory = path+'/local_hospital.png'
 
-image_directory = "D:/disease_prediction/local_hospital.png"
-image = Image.open(image_directory)
+# image_directory = "local_hospital.png"
+# image = Image.open(image_directory)
 
+# ../FSnm.png
 # C:\ProgramData\anaconda3\envs\MachineLearning\Lib\site-packages\streamlit_option_menu
 # C:/ProgramData/anaconda3/envs/MachineLearning/Lib/site-packages
 
 
-st.set_page_config(page_title='E Health Care', page_icon = image, layout = 'wide', initial_sidebar_state = 'auto')
+# st.set_page_config(page_title='E Health Care', page_icon = image, layout = 'wide', initial_sidebar_state = 'auto')
 # favicon being an object of the same kind as the one you should provide st.image() with (ie. a PIL array for example) or a string (url or local file path)
 
 
